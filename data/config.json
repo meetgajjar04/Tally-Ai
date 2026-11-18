@@ -1,0 +1,40 @@
+{
+  "tally": {
+    "host": "localhost",
+    "port": 9000,
+    "company": "",
+    "gateway_path": "/",
+    "timeout_seconds": 15
+  },
+  "ollama": {
+    "host": "http://localhost:11434",
+    "model": "qwen3:4b-instruct-2507-q4_K_M",
+    "vision_model": "qwen3-vl:4b",
+    "fallback_model": "qwen2.5:1.5b",
+    "timeout_seconds": 300,
+    "temperature": 0.0
+  },
+  "ocr": {
+    "render_dpi": 220,
+    "max_image_side": 2400,
+    "prefer_text_layer": true
+  },
+  "app": {
+    "theme": "dark",
+    "language": "en",
+    "auto_check_gateway": true,
+    "confirm_before_post": true,
+    "save_copies": true,
+    "compact_numbers": true
+  },
+  "mappings": {
+    "default_sales_ledger": "Sales Accounts",
+    "default_purchase_ledger": "Purchase Accounts",
+    "default_cash_ledger": "Cash",
+    "default_bank_ledger": "Bank Accounts",
+    "default_gst_ledger": "GST Payable",
+    "default_input_gst_ledger": "GST Input Credit",
+    "default_discount_ledger": "Discount Received",
+    "default_roundoff_ledger": "Round Off"
+  }
+}
